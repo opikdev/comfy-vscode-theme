@@ -12,9 +12,11 @@ derived from vision research, then verified numerically before a single frame wa
 
 ![Comfy Night, dark](https://raw.githubusercontent.com/opikdev/comfy-vscode-theme/main/preview/editor-dark.png)
 
-The integrated terminal carries the same 16-colour ANSI set:
+The integrated terminal carries the same 16-colour ANSI set in both variants:
 
-![Comfy terminal](https://raw.githubusercontent.com/opikdev/comfy-vscode-theme/main/preview/terminal-light.png)
+![Comfy terminal, light](https://raw.githubusercontent.com/opikdev/comfy-vscode-theme/main/preview/terminal-light.png)
+
+![Comfy Night terminal, dark](https://raw.githubusercontent.com/opikdev/comfy-vscode-theme/main/preview/terminal-dark.png)
 
 ## What the research changed
 
