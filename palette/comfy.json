@@ -1,0 +1,135 @@
+{
+  "name": "Comfy",
+  "description": "Canonical palette. Both variants and every editor port are generated from this file.",
+  "rationale": {
+    "polarity": "Light is the default. Positive polarity constricts the pupil, which increases depth of field and reduces spherical aberration, so most eyes resolve small text more easily. Dark is provided for cataracts, photophobia, and dim rooms.",
+    "band": "Every coloured token sits inside a narrow contrast band (light 5.69-6.50:1, dark 7.31-7.71:1). Hue distinguishes category; luminance stays flat so the eye does not re-adapt on every saccade.",
+    "blue": "No saturated short-wavelength blue in syntax. Longitudinal chromatic aberration leaves ~440nm about one dioptre defocused while accommodation locks near 550-570nm, and S-cones are absent from the foveal centre. Cool tokens use teal near 490nm. The ANSI blue slot is mandated by the spec, so it is shifted to hue 200-210 and held low in saturation.",
+    "extremes": "Neither #000 nor #FFF. Primary text lands near 12:1 rather than 21:1, which removes halation without dropping below the 4.5:1 floor.",
+    "comments": "Comments clear 4.5:1 in both variants."
+  },
+  "variants": {
+    "light": {
+      "appearance": "light",
+      "base": {
+        "bg": "#F3F1EC",
+        "chrome": "#EDEAE3",
+        "panel": "#E9E6DE",
+        "raised": "#E7E3DA",
+        "border": "#DCD8CE",
+        "line": "#EAE7E0",
+        "sel": "#DCE4DE",
+        "text1": "#2C2A26",
+        "text2": "#585349",
+        "text3": "#6E685A",
+        "gutter": "#A9A294",
+        "accent": "#3F7A5E",
+        "accentInk": "#F3F1EC"
+      },
+      "syntax": {
+        "comment": "#6E685A",
+        "punctuation": "#6B6556",
+        "variable": "#2C2A26",
+        "property": "#4F4A40",
+        "parameter": "#3E3A33",
+        "keyword": "#7B5230",
+        "type": "#2F6560",
+        "function": "#55651F",
+        "string": "#6E5A33",
+        "number": "#8A4B33",
+        "attribute": "#5F5A22",
+        "constant": "#6A4A78"
+      },
+      "state": {
+        "added": "#4A6B2E",
+        "modified": "#8A6A2A",
+        "deleted": "#8A4B33",
+        "untracked": "#2F6560",
+        "ignored": "#A9A294",
+        "conflict": "#6A4A78",
+        "error": "#8A4B33",
+        "warning": "#7A6428",
+        "info": "#2F6560"
+      },
+      "ansi": {
+        "black": "#4A463E",
+        "red": "#8A4B33",
+        "green": "#55651F",
+        "yellow": "#6F5A24",
+        "blue": "#3D5F80",
+        "magenta": "#6A4A78",
+        "cyan": "#2F6560",
+        "white": "#8C8678",
+        "brightBlack": "#6E685A",
+        "brightRed": "#6E3A26",
+        "brightGreen": "#42501A",
+        "brightYellow": "#5F4E1F",
+        "brightBlue": "#2F4A64",
+        "brightMagenta": "#523A5D",
+        "brightCyan": "#234E4A",
+        "brightWhite": "#585349"
+      }
+    },
+    "dark": {
+      "appearance": "dark",
+      "base": {
+        "bg": "#1B1D1C",
+        "chrome": "#171918",
+        "panel": "#141615",
+        "raised": "#242726",
+        "border": "#2E312F",
+        "line": "#212423",
+        "sel": "#2C3A33",
+        "text1": "#D8D4CA",
+        "text2": "#A29C8E",
+        "text3": "#8D8778",
+        "gutter": "#5A5548",
+        "accent": "#78B894",
+        "accentInk": "#1B1D1C"
+      },
+      "syntax": {
+        "comment": "#8D8778",
+        "punctuation": "#918B7C",
+        "variable": "#D8D4CA",
+        "property": "#B0AA9A",
+        "parameter": "#C4BFB2",
+        "keyword": "#D2A07C",
+        "type": "#7CB8AE",
+        "function": "#A1B76A",
+        "string": "#C3AC84",
+        "number": "#D89F8C",
+        "attribute": "#B5AD78",
+        "constant": "#BCA6CA"
+      },
+      "state": {
+        "added": "#A1B76A",
+        "modified": "#C3AC84",
+        "deleted": "#D89F8C",
+        "untracked": "#7CB8AE",
+        "ignored": "#5A5548",
+        "conflict": "#BCA6CA",
+        "error": "#D89F8C",
+        "warning": "#C3AC84",
+        "info": "#7CB8AE"
+      },
+      "ansi": {
+        "black": "#5A5548",
+        "red": "#D89F8C",
+        "green": "#A1B76A",
+        "yellow": "#C3AC84",
+        "blue": "#8FB2C4",
+        "magenta": "#BCA6CA",
+        "cyan": "#7CB8AE",
+        "white": "#A29C8E",
+        "brightBlack": "#7C7668",
+        "brightRed": "#E8B7A6",
+        "brightGreen": "#BACD8A",
+        "brightYellow": "#D6C3A2",
+        "brightBlue": "#A9C6D6",
+        "brightMagenta": "#CFBDD9",
+        "brightCyan": "#9BCDC4",
+        "brightWhite": "#D8D4CA"
+      }
+    }
+  }
+}

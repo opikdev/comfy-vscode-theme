@@ -1,0 +1,51 @@
+{
+  "name": "comfy",
+  "displayName": "Comfy",
+  "description": "A theme designed for endurance, not looks. Built on vision research: light-first, no saturated blue in syntax, and every colour held inside a narrow contrast band.",
+  "version": "0.1.0",
+  "publisher": "opik",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "light",
+    "dark",
+    "accessible",
+    "eye strain",
+    "low contrast"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/opikdev/comfy-vscode-theme.git"
+  },
+  "homepage": "https://github.com/opikdev/comfy-vscode-theme#readme",
+  "bugs": {
+    "url": "https://github.com/opikdev/comfy-vscode-theme/issues"
+  },
+  "galleryBanner": {
+    "color": "#F3F1EC",
+    "theme": "light"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Comfy",
+        "uiTheme": "vs",
+        "path": "./themes/comfy-light-color-theme.json"
+      },
+      {
+        "label": "Comfy Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/comfy-dark-color-theme.json"
+      }
+    ]
+  }
+}
