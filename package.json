@@ -2,6 +2,7 @@
   "name": "comfy",
   "displayName": "Comfy",
   "description": "A theme designed for endurance, not looks. Built on vision research: light-first, no saturated blue in syntax, and every colour held inside a narrow contrast band.",
+  "icon": "icon.png",
   "version": "0.1.0",
   "publisher": "opik",
   "license": "MIT",
